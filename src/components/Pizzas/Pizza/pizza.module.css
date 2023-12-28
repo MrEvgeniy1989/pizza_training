@@ -1,0 +1,48 @@
+.pizza {
+    display: flex;
+    flex-direction: column;
+    width: 50px;
+    /*max-height: 448px;*/
+}
+
+.paperPizza {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.img {
+    object-fit: scale-down;
+    width: 292px;
+    height: 292px;
+    margin: 0 auto;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.description {
+    font-size: 14px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.price {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.button {
+    border-radius: 20px !important;
+    background-color: rgb(255, 240, 230) !important;
+    color: rgb(209, 87, 0) !important;
+    transition-property: background-color, color !important;
+    transition-timing-function: ease-out !important;
+}

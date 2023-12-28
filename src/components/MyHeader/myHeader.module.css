@@ -1,0 +1,53 @@
+.header {
+    margin-bottom: 20px;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 20px;
+}
+
+.logoBlock {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.logoImg {
+    height: 150px;
+}
+
+.logoText {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.buttonBasket {
+    width: 140px;
+    height: 40px;
+    border-radius: 20px !important;
+    background-color: #FF6900 !important;
+    color: white !important;
+    transition-property: background-color, color !important;
+    transition-timing-function: ease-out !important;
+
+}
+.buttonBasketWithTotal {
+    width: 140px;
+    height: 40px;
+    border-radius: 20px !important;
+    background-color: #FF6900 !important;
+    color: white !important;
+    transition-property: background-color, color !important;
+    transition-timing-function: ease-out !important;
+    display: flex !important;
+    justify-content: space-between !important;
+}
+
+.lineInButton {
+    border: 1px solid #d9d9d9;
+    height: 100%;
+}
